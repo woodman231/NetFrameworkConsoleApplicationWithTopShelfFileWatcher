@@ -47,7 +47,8 @@ namespace NetFrameworkConsoleApplicationWithTopShelfFileWatcher
                 ServiceName = ConfigurationManager.AppSettings["ServiceName"],
                 ServiceDisplayName = ConfigurationManager.AppSettings["ServiceDisplayName"],
                 ServiceDescription = ConfigurationManager.AppSettings["ServiceDescription"],
-                FolderToWatch = ConfigurationManager.AppSettings["FolderToWatch"]
+                FolderToWatch = ConfigurationManager.AppSettings["FolderToWatch"],
+                ArchiveFolder = ConfigurationManager.AppSettings["ArchiveFolder"]
             };
         }
 
