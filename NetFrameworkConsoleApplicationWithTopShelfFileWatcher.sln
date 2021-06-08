@@ -5,6 +5,14 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFrameworkConsoleApplicationWithTopShelfFileWatcher", "NetFrameworkConsoleApplicationWithTopShelfFileWatcher\NetFrameworkConsoleApplicationWithTopShelfFileWatcher.csproj", "{ECBAFC4E-0FFB-454F-9E8E-6F7D5337D805}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{809FBAFD-4DE6-4EFD-9CD5-557E423B153E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+		SampleServiceInstallScript.ps1 = SampleServiceInstallScript.ps1
+		SampleServiceUpdateScript.ps1 = SampleServiceUpdateScript.ps1
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
